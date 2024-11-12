@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+ body{
+    background-color: #0D1117;
+ }
+.section1{
+    height: 600px;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.706)), url(images/pexels-veeterzy-38136.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.navbar1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+width: 110px;
+}
+.nav1{
+    height: 100%;
+    width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav1 ul{
+    list-style: none;
+    display: flex;
+}
+.nav1 ul li{
+    padding: 0px 40px;
+}
+.nav1 ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5vmin;
+}
+.herosection{
+height: 500px;
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.herosection h1{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+  
+    font-size: 7vmin;
+}
+.herosection p{
+    color: white;
+font-size: 2.5vmin;
+font-family: "poppins", sans-serif;
+text-align: center;
+position: relative;
+top: 10px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.section2{
+    height: 100px;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #0D1117;
+}
+.section2 h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 8vmin;
+    font-family: "Montserrat", sans-serif;
+}
+.section3{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: #0D1117; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3 h3{
+font-size: 5vmin;
+font-family: "Montserrat", sans-serif;
+color: white;
+}
+.section3 p{
+font-size: 2.5vmin;
+text-align: center;
+color: white;
+}
+.section35{
+    height: 100px;
+    width: 100%;
+    background-color: #0D1117;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.section35 h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 8vmin;
+    font-family: "Montserrat", sans-serif;
+}
+.section4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1117;
+}
+.card1{
+    height: 250px;
+    width: 400px;
+    box-shadow: 2px 2px 15px black;
+    margin: 20px;
+    transition: 0.5s;
+    border-radius: 10px; 
+}
+.btn1{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    color: white;
+ background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 3px;
+font-weight: bolder;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.card1 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.card1 img:hover{
+filter: brightness(50%);
+}
+.section45{
+    height: 100px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.section45 h1{
+    font-size: 8vmin;
+font-family: "Montserrat", sans-serif;
+color: white;
+font-weight: bolder;
+}
+.section5{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #0D1117;
+}
+.leftside{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.first{
+    height: 100px;
+    width: 100%;
+    display: flex;
+
+
+}
+.icon1{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icon1 i{
+    color: white;
+    font-size: 6.5vmin;
+}
+.call{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.callus{
+    height: 50%;
+    width: 100%;
+    display: flex;
+align-items: center;
+}
+.number{
+    height: 50%;
+    width: 100%;
+    display: flex; 
+
+}
+.rightside{
+    height: 100%;
+    width: 50%;
+}
+
+.card2{
+    height: 150px;
+    width: 250px;
+    box-shadow: 2px 2px 15px black;
+    margin: 20px;
+    transition: 0.5s;
+  border-radius: 5px;
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card2 img:hover{
+filter: grayscale(1);
+}
+.go{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goback{
+padding: 10px 20px;
+background-color: transparent;
+color: white;
+border: 2px solid white;
+cursor: pointer;
+transition: 0.5s;
+}
+.goback:hover{
+    color: black;
+    -webkit-background-clip: transparent;
+    background-color: white;
+    background-clip: transparent;
+}
+.fa-arrow-up{
+    background-color: white;
+    color: #0D1117;
+padding: 5px 10px;
+position: fixed;
+right: 20px;
+bottom: 5px;
+border-radius: 100%;
+cursor: pointer;
+}
+#up{
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .section1{
+     height: auto;
+    }
+    .navbar1{
+        flex-direction: column;
+        height: auto;
+  
+    }
+    .logo{
+        width: 100%;
+    }
+    .nav1{
+width: 100%;
+height: 100px;
+
+    }
+    .nav1 ul li{
+        padding: 0px 15px;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .leftside{
+        width: 100%;
+    }
+    .rightside{
+        width: 100%;
+    }
+.card2{
+    height: 300px;
+    width: 400px;
+}
+}
